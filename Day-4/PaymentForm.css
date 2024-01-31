@@ -1,0 +1,50 @@
+/* PaymentForm.css */
+
+.payment-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    /* margin-top: 7rem; */
+    background-color: #f3f1cd; /* Set your desired background color */
+  }
+  
+  .payment-form {
+    background-color: #ffffff; /* Form background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px; /* Common font size for labels */
+  }
+  
+  .payment-form input {
+    width: 100%;
+    padding: 10px; /* Uniform padding for input fields */
+    margin-top: 5px;
+    font-size: 14px; /* Common font size for input fields */
+  }
+  
+  .payment-form button {
+    background-color: #1c1f22; /* Button color */
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .payment-success {
+    text-align: center;
+  }
+  
+ 
+  
+  @media screen and (max-width: 600px) {
+    /* Add responsive styles here if needed */
+  }
+  

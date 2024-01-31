@@ -1,0 +1,61 @@
+/* Customize.css */
+
+body {
+    /* margin: 0; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .custom-form {
+    
+        margin-left: 559px;
+        background-color: white;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        width: 75%;
+        max-width: 600px;
+        margin-top: 141px;
+        padding-top: 78px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: cursive;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #182719;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Apply styles for screens with a maximum width of 768px */
+    .custom-form {
+      width: 90%;
+    }
+  }
+  
